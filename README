@@ -1,0 +1,12 @@
+clipper is meant to run on the adafruit metro express m0 with circuitpython
+
+clipper allows users to copy infrared patterns from remote controls
+and play them back
+
+the rightmost button puts clipper into record mode
+
+the leftmost button sends all recorded patterns
+
+TODO:
+      third button should be added to switch between pattern to send, as of now all are sent at once
+      possibly limit number of patterns to 2^2, two LEDs should indicate which pattern we are on in binary
