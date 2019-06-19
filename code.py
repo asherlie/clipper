@@ -46,7 +46,8 @@ def imitate_u(ir_f):
         ir_led_send.send(ir_f[1:])
     else:
         ir_led_send.send(ir_f)
-    time.sleep(.5) # give some cooldown time
+    # give some cooldown time
+    time.sleep(.5)
     ir_led.duty_cycle = 0
 
 # so nothing devastating happens if play before record
